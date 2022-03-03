@@ -45,3 +45,32 @@ nav {
     transform: rotate(-0.125turn) translate(1.5em,-1.5em);
   }
 }
+
+#top-nav {
+  opacity: 1;
+  position: absolute;
+  top: 1em;
+  width: 100%;
+}
+
+#top-nav a {
+  text-decoration: none;
+  color: rgb(26, 23, 21);
+}
+
+#top-nav a:hover {
+  text-decoration: underline;
+}
+
+#top-nav ul {
+  text-align: center;
+}
+
+#top-nav li {
+  display: inline-block;
+  width: 20%;
+  padding: 1em;
+  font-size: 160%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
